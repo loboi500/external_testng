@@ -1,9 +1,3 @@
-To publish:
-
-- ./gradlew bintrayUpload will upload the release to JCenter. It will fail if the version is a SNAPSHOT
-- ./gradlew uploadArchives will upload
-  - the snapshot to https://oss.sonatype.org/content/repositories/snapshots
-  - the release to https://oss.sonatype.org/service/local/staging/deploy/maven2
-For a release, you then need to go to https://oss.sonatype.org/index.html#stagingRepositories to manually close and release the distribution.
-
-Note that `./gradlew uploadArchives` is run by Travis after each new push to deploy the latest HEAD to the snapshot directory. As such, the version number of `build.gradle` in the git repo should always be -SNAPSHOT.
+version https://git-lfs.github.com/spec/v1
+oid sha256:0bd2a1f1fa22c212889210c1460ddb40573790068de307d3073ae9f3348f9f20
+size 672

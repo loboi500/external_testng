@@ -1,5 +1,3 @@
-third_party {
-  # would be NOTICE save for:
-  #   src/main/java/org/testng/remote/strprotocol/AbstractRemoteTestRunnerClient.java
-  license_type: RECIPROCAL
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:7b9db21c6e4721c4b99136dc0da2fc6de7efbddd3a3fb5dc3dc56edb7e5bb581
+size 159

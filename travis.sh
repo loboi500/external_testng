@@ -1,11 +1,3 @@
-#!/bin/bash
-
-if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then
-  if [ -n "$SONAR_GITHUB_OAUTH" ]; then
-    ./gradlew sonarqube \
-      -Dsonar.github.pullRequest=$TRAVIS_PULL_REQUEST \
-      -Dsonar.github.oauth=$SONAR_GITHUB_OAUTH \
-  else
-    echo "No oauth token available"
-  fi
-fi
+version https://git-lfs.github.com/spec/v1
+oid sha256:2004c9b4a013cb0c0976bb6a1869efceba92ec31ef323e559a149672b6f5c2a5
+size 281

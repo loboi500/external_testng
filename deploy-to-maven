@@ -1,14 +1,3 @@
-if [ -z "$SONATYPE_USER" ]
-then
-  echo "Please define SONATYPE_USER"
-  exit 1
-fi
-
-if [ -z "$SONATYPE_PASSWORD" ]
-then
-  echo "Please define SONATYPE_PASSWORD"
-  exit 1
-fi
-
-./gradlew uploadArchives && ./gradlew closeAndPromoteRepository
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:a783da14bcfbba43d89f58ed87b130eb4f500ad178ae87676ea6275da5f1c996
+size 237
